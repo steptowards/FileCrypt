@@ -62,14 +62,14 @@ public class ProcessActivity extends BaseActivity {
     public void onStartPress(View view) {
         Log.i("choice", choice + "");
         Log.i("file path", filePath);
-        EditText passwordButton = (EditText) findViewById(R.id.password);
-        passwordString = passwordButton.getText().toString();
+        EditText passwordField = (EditText) findViewById(R.id.password);
+        passwordString = passwordField.getText().toString();
         CheckBox deleteFile = (CheckBox) findViewById(R.id.deleteFileCheck);
         setDeleteStatus = deleteFile.isChecked();
-
+        passwordField.requestFocus();
         // ask user to enter a password if he / she didn't set one
         if(passwordString.length() == 0){
-            Toast.makeText(this, "Please enter a password", Toast.LENGTH_SHORT).show();
+            passwordField.setError("Password cannot be left blank");
         }
         else if(fileSize > 20971520 && fileSize < 524288000){ // greater than 20 MB and less than 500 MB
             showBigFileDialog("This is a big file and might take significant time");
