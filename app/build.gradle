@@ -26,3 +26,16 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
+
+repositories {
+    maven {
+        url  "http://dl.bintray.com/lukaville/maven"
+    }
+}
+dependencies {
+    compile 'com.nbsp:library:1.8'
+}
+
+dependencies {
+    compile 'com.github.florent37:materialtextfield:1.0.7'
+}
