@@ -1,4 +1,4 @@
-What is FileCrypt?
+### What is FileCrypt?
 FileCrypt is a simple to use, open-source Android application for encrypting files using [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)  
 You can [download the APK from here](http://example.com/) or build it using the source code.
 
