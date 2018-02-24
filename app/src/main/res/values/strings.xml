@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">FileCrypt</string>
+    <string name="app_version">v1.0</string>
+    <string name="title_activity_options">Options</string>
+    <string name="overWriteText">Use slider for overwrite count</string>
+    <string name="initialOverWriteText">Selected file will be overwritten 1 time</string>
+    <string name="enterPasswordEncryption">Enter a password to proceed with encryption</string>
+    <string name="enterPasswordDecryption">Enter a password to proceed with decryption</string>
+    <string name="resetText">This option will reset necessary files required for decryption of already encrypted files.
+                             Please proceed only if you have the backup of original unencrypted files.
+                             Please enter the following reset code in the field to proceed : \n %1$s</string>
+    <string name="mainDescription">"FileCrypt uses AES-256 for encryption.\nSelect an option below to start"</string>
 </resources>
