@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="Share"
+        />
+
+    <item android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/faqs"
+        android:title="FAQs"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/contact"
+        android:title="Contact Us"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/resetSV"
+        android:title="Reset"
+        app:showAsAction="never"/>
+
+</menu>
