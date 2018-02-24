@@ -36,7 +36,8 @@ public class AppUtils {
         Intent i=new Intent(Intent.ACTION_SEND);
         i.setType("text/plain");
         i.putExtra(Intent.EXTRA_SUBJECT,"Share : ");
-        i.putExtra(Intent.EXTRA_TEXT, "Please use File Crypt for encrypting / decrypting files");
+        i.putExtra(Intent.EXTRA_TEXT, "FileCrypt is a simple to use Android app for file encryption. " +
+                "To know more, please visit :\nhttp://bit.ly/2EPDmaK");
         context.startActivity(Intent.createChooser(i,"Share via"));
     }
 

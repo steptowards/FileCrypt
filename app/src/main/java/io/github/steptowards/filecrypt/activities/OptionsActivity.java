@@ -65,7 +65,7 @@ public class OptionsActivity extends BaseActivity {
                         childPosition) + " clicked");
                 // tapping on contact us should open mail dialog
                 if(groupPosition == 0 && childPosition == 1)
-                    AppUtils.openLinkInBrowser(OptionsActivity.this,"https://steptowards.github.io/filecryptapp/");
+                    AppUtils.openLinkInBrowser(OptionsActivity.this,"https://steptowards.github.io/FileCrypt/");
                 else if(groupPosition == 2)
                     EmailUtil.getInstance().sendEmail(OptionsActivity.this);
 
