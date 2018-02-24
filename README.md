@@ -1,12 +1,12 @@
 ### What is FileCrypt?
 FileCrypt is a simple to use, open-source Android application for encrypting files using [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)  
-You can [download the APK from here](http://example.com/) or build it using the source code.
+You can [download the APK from here](https://github.com/steptowards/FileCrypt/blob/master/app/release/FileCrypt_v1.0.apk?raw=true) [[Verify](https://raw.githubusercontent.com/steptowards/FileCrypt/master/app/release/Verify.txt?raw=true)] or build it using the source code.
 
 ### What can I use FileCrypt for?
 FileCrypt app can be used for encrypting / decrypting files from internal storage of your devices. It uses AES with 256 bit key length for encryption. You can also use FileCrypt to securely delete files using upto 3 overwrites.
 
 ### Why should I trust FileCrypt
-File Crypt offers AES with 256 bit key to perform encryption on files. It relies [Java Crypto library](https://docs.oracle.com/javase/7/docs/api/javax/crypto/package-use.html#javax.crypto) for implementation and is also open-sourced under MIT Licence. You can do an independent review of the source code before using the app.
+File Crypt offers AES with 256 bit key to perform encryption on files. It is open-sourced under MIT Licence and relies on [Java Crypto library](https://docs.oracle.com/javase/7/docs/api/javax/crypto/package-use.html#javax.crypto) for implementation . You can do an independent review of the source code before using the app.
 
 ### How secure is AES algorithm 
 Taken from [AES Wikipedia entry](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard#Known_attacks) : 
