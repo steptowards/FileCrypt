@@ -58,7 +58,7 @@
         android:onClick="onResetPress"
         android:text="RESET"
         android:textSize="24sp"
-        android:theme="@style/PrimaryButton"
+        android:theme="@style/ProcessButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"

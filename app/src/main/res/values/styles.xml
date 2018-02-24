@@ -18,6 +18,11 @@
         <item name="colorControlHighlight">#9999ff</item>
     </style>
 
+    <style name="ProcessButton" parent="Theme.AppCompat">
+        <item name="colorButtonNormal">#937abf</item>
+        <item name="colorControlHighlight">#8869bf</item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
