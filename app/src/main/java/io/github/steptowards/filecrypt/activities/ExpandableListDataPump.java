@@ -51,7 +51,8 @@ public class ExpandableListDataPump {
         String about2 = "Visit FileCrypt homepage" + lineSeparator +
                         "Tap here to visit FileCrypt homepage.";
         String about3 = "Version and Licence " + lineSeparator +
-                        "You are using FileCrypt v1.0 (covered under MIT Licence)";
+                        "FileCrypt v1.0 is open-sourced under MIT Licence.\n" +
+                        "Icon pack is provided by icons8.com";
 
         String cntct1 = "How to contact us" + lineSeparator +
                         "Please tap here to drop a mail at \n" +
