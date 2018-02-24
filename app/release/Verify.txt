@@ -1,0 +1,5 @@
+Verification hashes for FileCrypt_v1.0.apk
+
+MD5	b8bfe0c72db9fc1fc5f2a78f7a9b9843
+SHA256 	97031a95aba9f670a3a56cddd4cea42c3e87e75828122141a1b13ccb12b35e97
+
